@@ -1,3 +1,5 @@
+//importando os pacotes e materiais dart.
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+
+      //dando um titulo
+      title: 'Vittor',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -22,9 +26,12 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
+
+        //cor da barra superior
+        primarySwatch: Colors.grey,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      //nome da pagina que ficara na barra superior da cor cinza 
+      home: const MyHomePage(title: 'Vittor'),
     );
   }
 }
